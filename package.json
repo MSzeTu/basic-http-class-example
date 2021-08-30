@@ -1,0 +1,30 @@
+{
+  "name": "basic-http-class-example",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.17.3",
+    "npm": "6.14.13"
+  },
+  "description": "Basic HTTP server",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSzeTu/basic-http-class-example.git"
+  },
+  "author": "Matthew Sze-Tu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSzeTu/basic-http-class-example/issues"
+  },
+  "homepage": "https://github.com/MSzeTu/basic-http-class-example#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
